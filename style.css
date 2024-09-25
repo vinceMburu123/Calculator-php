@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+.container{
+background-color: aqua;
+padding: 30px;
+
+}
+.container h2{
+    color: #333;
+    font-size: 24px;
+}
+.container label{
+    display: block;
+    text-align: left;
+}
+.container input[type="number"],
+.container select{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.container input[type="submit"]{
+    background-color: #28a745;
+    color: white;
+}
+.container input[type]:hover{
+    color: blue;
+}
